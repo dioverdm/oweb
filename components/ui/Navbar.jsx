@@ -343,7 +343,7 @@ const Navbar = () => {
                         <NavDropdown
                             title="Contáctanos"
                             items={developersItems}
-                            isActive={activeDropdown === 'Contáctanos}
+                            isActive={activeDropdown === 'Contáctanos'}
                         />
 
                         <NavDropdown
