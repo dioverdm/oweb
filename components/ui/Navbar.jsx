@@ -337,34 +337,34 @@ const Navbar = () => {
                         <NavDropdown
                             title="Precios"
                             items={featuresItems}
-                            isActive={activeDropdown === 'Features'}
+                            isActive={activeDropdown === 'Precios'}
                         />
 
                         <NavDropdown
                             title="Contáctanos"
                             items={developersItems}
-                            isActive={activeDropdown === 'Developers'}
+                            isActive={activeDropdown === 'Contáctanos}
                         />
 
                         <NavDropdown
                             title="Redes Sociales"
                             items={companyItems}
-                            isActive={activeDropdown === 'Company'}
+                            isActive={activeDropdown === 'Redes Sociales'}
                         />
 
-                        <a href="#" className="text-white/60 hover:text-white transition-colors duration-200 nav-item">
+                       {/* <a href="#" className="text-white/60 hover:text-white transition-colors duration-200 nav-item">
                             Blog
                         </a>
 
                         <a href="#" className="text-white/60 hover:text-white transition-colors duration-200 nav-item">
                             Changelog
                         </a>
-                    </div>
+                    </div> */}
 
                     {/* CTA Button - Desktop */}
                     <button className='px-2 py-4 border border-white/20 rounded-xl transition-all duration-500 group hover:border-white/30 max-sm:hidden nav-cta'>
                         <span className='px-6 py-3 bg-white/80 max-sm:bg-white text-black rounded-lg cursor-pointer group-hover:bg-white transition-all duration-1000'>
-                            Start for free
+                            ¡CONTACTANOS AHORA!
                         </span>
                     </button>
 
