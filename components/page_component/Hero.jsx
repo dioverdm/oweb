@@ -175,8 +175,8 @@ const Hero = () => {
                     </h1>
 
                     <p ref={hero_p} className='text-2xl max-md:text-lg max-sm:text-sm text-white/70'>
-                        Elevate your sites visibility effortlessly with AI, where <br />
-                        smart technology meets user-friendly SEO tools.
+                        Transformamos ideas en experiencias visuales impactantes: <br />
+                        desde tu identidad de marca hasta tu sitio web, todo diseñado para destacar.
                     </p>
 
                     <button ref={hero_button} className='px-2 py-4 border border-white/20 rounded-xl transition-all duration-500 group hover:border-white/30'>
