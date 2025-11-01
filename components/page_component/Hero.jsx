@@ -168,9 +168,9 @@ const Hero = () => {
 
                 <div className='w-full text-center space-y-6 mb-10 z-20 relative '>
                     <h1 ref={hero_h1} className='text-8xl max-md:text-6xl max-sm:text-4xl leading-22 max-md:leading-14 max-sm:leading-9'>
-                        Boost your <br />
+                        Diseñamos marcas que se se <br />
                         <span className="bg-gradient-to-b from-white to-purple-600 bg-clip-text text-transparent">
-                            rankings with AI.
+                            viven y se recuerdan.
                         </span>
                     </h1>
 
