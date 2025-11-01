@@ -181,7 +181,7 @@ const Hero = () => {
 
                     <button ref={hero_button} className='px-2 py-4 border border-white/20 rounded-xl transition-all duration-500 group hover:border-white/30'>
                         <span className='px-6 py-3 bg-white/80 max-sm:bg-white text-black rounded-lg cursor-pointer group-hover:bg-white transition-all duration-1000'>
-                            Start for free
+                            Solicitar propuesta
                         </span>
                     </button>
                 </div>
