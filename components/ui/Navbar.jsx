@@ -14,26 +14,21 @@ const Navbar = () => {
 
     // Features dropdown data
     const featuresItems = [
-        { name: "AI-Powered Analytics", description: "Advanced insights with machine learning" },
-        { name: "SEO Optimization", description: "Boost your search rankings" },
-        { name: "Performance Monitoring", description: "Real-time performance tracking" },
-        { name: "Competitor Analysis", description: "Stay ahead of the competition" }
+        { name: "Planes y Servicios", description: "Descubre nuestros precios sumamente accesibles" },
+        { name: "Solicitar Asesoramiento", description: "Nuestros asesores te ayudaran a definir que servicio amerita tu negocio" }
     ]
 
     // Company dropdown data
     const companyItems = [
-        { name: "About Us", description: "Our story and mission" },
-        { name: "Careers", description: "Join our team" },
-        { name: "Press Kit", description: "Media resources" },
-        { name: "Contact", description: "Get in touch with us" }
+        { name: "WhatsApp", description: "Habla directamente con nuestro equipo." },
+        { name: "E-mail", description: "Crea un ticket" }
     ]
 
     // Developers dropdown data
     const developersItems = [
-        { name: "Documentation", description: "API references and guides" },
-        { name: "API Status", description: "Check system status" },
-        { name: "SDK Downloads", description: "Tools and libraries" },
-        { name: "Community", description: "Developer forums" }
+        { name: "Instagram", description: "Visita nuestro perfil de instagram y mantente informado de nuestros proyectos" },
+        { name: "TikTok", description: "Consigue videos informativos que te ayudarán a crecer" },
+        { name: "Facebook", description: "Conoce mas de nuestra marca" }
     ]
 
     // GSAP animations for navbar entrance
@@ -340,19 +335,19 @@ const Navbar = () => {
                     {/* Desktop Navigation */}
                     <div className="hidden lg:flex items-center space-x-8">
                         <NavDropdown
-                            title="Features"
+                            title="Precios"
                             items={featuresItems}
                             isActive={activeDropdown === 'Features'}
                         />
 
                         <NavDropdown
-                            title="Developers"
+                            title="Contáctanos"
                             items={developersItems}
                             isActive={activeDropdown === 'Developers'}
                         />
 
                         <NavDropdown
-                            title="Company"
+                            title="Redes Sociales"
                             items={companyItems}
                             isActive={activeDropdown === 'Company'}
                         />
