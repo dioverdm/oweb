@@ -358,8 +358,8 @@ const Navbar = () => {
 
                         <a href="#" className="text-white/60 hover:text-white transition-colors duration-200 nav-item">
                             Changelog
-                        </a>
-                    </div> */}
+                        </a> */}
+                    </div> 
 
                     {/* CTA Button - Desktop */}
                     <button className='px-2 py-4 border border-white/20 rounded-xl transition-all duration-500 group hover:border-white/30 max-sm:hidden nav-cta'>
